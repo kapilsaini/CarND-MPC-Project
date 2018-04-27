@@ -49,10 +49,10 @@ Our objective is to minimize the cost function so as to obtain most optimal path
 * **v** (velocity) : We want to maintain at-least desired velocity.
 
 Additionally:-
-We don't want to steer if we don't really need to
-We don't want to accelerate or brake if we don't really need to
-We don't want consecutive steering angles to be too different
-We don't want consecutive accelerations to be too different
+* We don't want to steer if we don't really need to
+* We don't want to accelerate or brake if we don't really need to
+* We don't want consecutive steering angles to be too different
+* We don't want consecutive accelerations to be too different
 
 So equation for cost becomes:-
 ```

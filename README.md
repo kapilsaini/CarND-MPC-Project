@@ -61,16 +61,7 @@ cost = A * cte^2 + B * epsi^2 + C * (v - vref)^2 +
 ```
 *here vref is the desired reference velocity*.
 
-A-G are penalty weights that are derived by trial and error. Final wights that I tuned are:-
-```
-A = 1
-B = 1
-C = 1
-D = 10
-E = 10
-F = 500
-G = 10
-```
+
 ## Timestep Length and Elapsed Duration (N & dt)
 * **N**: This represents how many states we look into future.
 * **dt**: This represents in how much time we expect changes in the environment
